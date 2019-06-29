@@ -1,0 +1,131 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+.nav-bar
+{ 
+    border-bottom: 3px solid rgb(189, 148, 73);
+    height:54px;
+    margin-bottom: 20px;
+    position:sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+
+.form-ctrl
+{
+    border: 1px solid rgb(189, 148, 73);
+    border-bottom-left-radius:20px;
+    border-top-left-radius:20px; 
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    box-shadow: none;
+    height: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.input-text 
+{ 
+  background: rgb(189, 148, 73);
+  border: 1px solid rgb(189, 148, 73);
+  border-bottom-left-radius:0px;
+  border-top-left-radius:0px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: none;
+  cursor: pointer;
+  height: 25px;
+  margin: 8.5px 10px 3px 0px;
+}
+
+
+.search-box
+{
+    display: inline-flex;
+    width: 60%;
+}
+
+.fa-search
+{
+color: white;
+
+}
+
+.menu-bar
+{
+    width: 40%;
+    height: 47px;
+    float: right;
+}
+
+.menu-bar ul
+{
+display: inline-flex;
+float:right;
+}
+
+.menu-bar ul li
+{
+    border-left:1px solid white;
+    list-style-type: none;
+    padding: 15px 35px;
+    text-align: center;
+    background-color: rgb(189, 148, 73);
+    cursor:pointer;
+}
+.menu-bar ul li a
+{ 
+    font-size:15px;
+    font-weight: bold;
+}
+
+.fa-shopping-basket
+{
+    margin-right: 5px;
+}
+
+
+
+
+@media only screen and (max-width:980px)
+{
+    .nav-bar
+    {
+    height:115px;
+    border-bottom: 0px; 
+    }
+
+    .search-box
+    {
+        width: 100%;
+    }
+
+    .menu-bar
+    {
+        width:100%;
+    }
+
+    .menu-bar ul
+    {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .menu-bar ul li
+    {
+        height: 50px;
+        width: 100%;
+    }
+
+}
