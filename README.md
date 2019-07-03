@@ -12,3 +12,5 @@ allows one to search and to checkout...
 -Users can register/login using website custom forms, or social login libraries
 -Users can update personal profiles with shipping addresses and other info
 -Users can checkout with 3rd party payment gateways: Stripe. This requirement is mandatory, you must use our API to handle the payment.
+
+This web application has fully been tested on google chrome and the compatibility is okay with Chromium browser
